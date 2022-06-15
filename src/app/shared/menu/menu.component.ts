@@ -9,7 +9,6 @@ import { MenuItem } from 'primeng/api';
 })
 export class MenuComponent implements OnInit {
   constructor() {}
-
   items: MenuItem[] = [];
 
   ngOnInit() {
